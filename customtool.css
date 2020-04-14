@@ -1,0 +1,41 @@
+body, input {
+    font-family: 'Lucida Sans', 'Lucida Sans Regular';
+    font-size: 18px;
+    padding: 10px;
+    background-color: white;
+}
+textarea:focus, input:focus{
+    outline: none;
+}
+.title {
+    font-size: 2em;
+    color: firebrick;
+}
+.module {
+    padding: 10px;
+    margin: auto;
+}
+.hidden {
+    display: none;
+}
+.searchbox {
+    width: 40%;
+    padding: 4px 8px;
+    border-radius: 8px;
+    background-color: whitesmoke;
+}
+.searchbutton {
+    background-color: whitesmoke;
+    padding: 4px 8px;
+    border-radius: 8px;
+}
+.searchresult {
+    margin-bottom: 8px;
+}
+.addr {
+    color: lightslategray;
+    font-size: 12px;
+}
+.nomatch {
+    font-style: italic;
+}
