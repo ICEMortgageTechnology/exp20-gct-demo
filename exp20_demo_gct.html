@@ -1,0 +1,21 @@
+<html>
+    <head>
+        <script src="https://cdn.elliemae.io/elliemae/core/ssf/1.0/elli.ssf.guest.js"></script>
+        <script src="exp20_demo_gct.js"></script>
+        <link rel="stylesheet" type="text/css" href="customtool.css">
+    </head>
+    <body>
+        <form>
+        <div id="qs" class="module hidden">
+            <div id="searchbar" class="module">
+                <input id="searchtext" class="searchbox" type="text" 
+                    placeholder="Name, Loan Number or Address">
+                <input type="submit" class="searchbutton" value="Search" 
+                    onclick="performSearch(document.getElementById('searchtext').value); return false;">
+            </div>
+            <div id="results" class="module"></div>
+        </div>
+        <div id="err" class="module hidden"></div>
+        </form>
+    </body>
+</html>
